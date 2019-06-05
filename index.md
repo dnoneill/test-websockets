@@ -14,6 +14,5 @@ layout: default
 		top: 0px;
 		margin-left: 0px;
 		font-size: 18px;
-		max-height: none;
 	}
 </style>
