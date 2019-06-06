@@ -4,7 +4,7 @@ layout: default
 <script src="https://ncsu-libraries.github.io/iiif-annotation/dist/iiif-annotation.js"></script>
 
 <div id="anno1" title="About">
-This is an example of <a href="https://ncsu-libraries.github.io/iiif-annotation/">a iiif-annotation</a>library equiped with websockets to allow for presentation. This is the reciever. It can be navigated but all the specialized controls are located here: <a href="http://intense-hamlet-45148.herokuapp.com">http://intense-hamlet-45148.herokuapp.com</a>. This functionality is fully customizable, please visit the JavaScript library website for more information.
+This is an example of <a href="https://ncsu-libraries.github.io/iiif-annotation/"> a iiif-annotation library</a> equiped with websockets to allow for presentation. This is an example using a websocket to allow for transmitting. This is the reciever. It can be navigated but all the specialized controls are located here: <a href="http://intense-hamlet-45148.herokuapp.com">http://intense-hamlet-45148.herokuapp.com</a>. This functionality is fully customizable, please visit the JavaScript library website for more information.
 </div>
 
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/iiif-annotation/dist/iiif-annotation.css">
