@@ -11,8 +11,9 @@ layout: default
 	}
 	.annotation {
 		height: 100%;
-		top: 0px;
+		top: 0px!important;
 		margin-left: 0px;
 		font-size: 18px;
+		max-height: 100%!important;
 	}
 </style>
