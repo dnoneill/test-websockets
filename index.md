@@ -8,7 +8,7 @@ This is an example of <a href="https://ncsu-libraries.github.io/iiif-annotation/
 </div>
 
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/iiif-annotation/dist/iiif-annotation.css">
-<iiif-storyboard ws="wss://intense-hamlet-45148.herokuapp.com" annotationlist="https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json" styling="tts: en; fullpage: true; hide_annocontrols: true; additionalinfo: anno1; startenddisplay: info;"></iiif-storyboard>
+<iiif-storyboard ws="wss://intense-hamlet-45148.herokuapp.com" annotationlist="https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json" styling="fullpage: true; hide_annocontrols: true; additionalinfo: anno1; startenddisplay: info;"></iiif-storyboard>
 
 <style>
 	#header_toolbar {
