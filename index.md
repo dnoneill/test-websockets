@@ -8,28 +8,11 @@ This is an example of <a href="https://ncsu-libraries.github.io/iiif-annotation/
 </div>
 
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/iiif-annotation/dist/iiif-annotation.css">
-<iiif-storyboard ws="wss://intense-hamlet-45148.herokuapp.com" annotationlist="https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json" styling="fullpage: true; hide_annocontrols: true; additionalinfo: anno1; startenddisplay: info;"></iiif-storyboard>
+<iiif-storyboard ws="wss://intense-hamlet-45148.herokuapp.com" annotationlist="https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json" styling="fullpage: true; hide_annocontrols: true; "></iiif-storyboard>
+<iiif-storyboard ws="https://intense-hamlet-45148.herokuapp.com" annotationlist='https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json' styling='tagscolor: {"animals":"#fe0a1e","discarded_constellation":"#ffd46c","greek_mythology":"#f6f030","historical":"#82f937","zodiac":"#22c5fa"};activecolor: #ffffff;startenddisplay: info;annoview: collapse;toggleoverlay: true;controller: true;fullpage:true;additionalinfo: anno1; startenddisplay: info;'></iiif-storyboard>
+
 
 <style>
-	#header_toolbar {
-		display: none;
-	}
-	.annotation {
-		height: 100vh;
-		top: 0px!important;
-		margin-left: 0px;
-		font-size: 18px;
-		max-height: 100%!important;
-	}
-	.seadragonboxfull {
-		width: 90%;
-		left: 10%;
-	}
-	@media only screen and (max-width: 600px) {
-		.seadragonboxfull {
-			width: 100%;
-			left: 0%;
-		}
-
-	}
+	#header_toolbar {display: none!important;}
+	.annotation {top: 0px!important}
 </style>
