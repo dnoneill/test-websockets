@@ -8,10 +8,4 @@ This is an example of <a href="https://ncsu-libraries.github.io/iiif-annotation/
 </div>
 
 <link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/iiif-annotation/dist/iiif-annotation.css">
-<iiif-storyboard ws="https://intense-hamlet-45148.herokuapp.com" annotationlist='https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json' styling='tagscolor: {"animals":"#fe0a1e","discarded_constellation":"#ffd46c","greek_mythology":"#f6f030","historical":"#82f937","zodiac":"#22c5fa"};activecolor: #ffffff;annoview: collapse;toggleoverlay: false;fullpage:true;additionalinfo: anno1; startenddisplay: info;'></iiif-storyboard>
-
-
-<style>
-	#header_toolbar {display: none!important;}
-	.annotation {top: 0px!important}
-</style>
+<iiif-storyboard ws="https://intense-hamlet-45148.herokuapp.com" annotationlist='https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json' styling='tagscolor: {"animals":"#fe0a1e","discarded_constellation":"#ffd46c","greek_mythology":"#f6f030","historical":"#82f937","zodiac":"#22c5fa"};activecolor: #ffffff;annoview: collapse;toggleoverlay: false;fullpage:true;additionalinfo: anno1; startenddisplay: info;hide_toolbar:true;'></iiif-storyboard>
